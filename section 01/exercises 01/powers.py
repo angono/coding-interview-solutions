@@ -12,10 +12,6 @@ def powers(N, P):
 		return 1 
 	return (N*powers(N, P-1))
 
-def powers(N, P):
-	if P == 0:
-		return 1 
-	return (N * powers(N, P - 1))
 
 print(powers(8,0))
 print(powers(5,2))

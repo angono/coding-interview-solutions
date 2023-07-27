@@ -23,23 +23,6 @@ def permutation(str1, str2):
 			return True 
 
 
-def permutation(str1, str2):
-	if len(str1) != len(str2):
-		return False 
-
-	a = sorted(str1)
-	str1 = ''.join(a)
-
-	b = sorted(str2)
-	str2 = ''.join(b)
-
-	for i in range(0, len(str1), 1):
-		if str1[i] != str2[i]:
-			return False 
-		else:
-			return True 
-
-
 perm = permutation('pat','tap')
 print(perm)
 

@@ -7,11 +7,6 @@ def get_mini_max(arr):
 	minimax = {"mini": arr[0], "max": arr[-1]}
 	return minimax 
 
-def get_mini_max(arr):
-	arr.sort()
-	minimax = {"mini":arr[0], "max":arr[-1]}
-	return minimax
-
 
 arr = [12, 34, 54, 20, 30, 2]
 

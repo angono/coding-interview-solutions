@@ -16,9 +16,6 @@ def secondElement(N):
 	second_largest = sorted(N)[-2]
 	return second_largest
 
-def secondElement(N):
-	n = sorted(N)[-2]
-	return n 
 
 list1 = [10, 20, 4, 45, 99]
 n = secondElement(list1)
@@ -47,10 +44,6 @@ def secondElement(N):
 	list1.sort()
 	return list1[-2]
 
-def secondElement(N):
-	list1 = list(set(N))
-	list1.sort()
-	return list1[-2]
 
 list1 = [10, 45, 20, 4, 45, 99, 99]
 n = secondElement(list1)

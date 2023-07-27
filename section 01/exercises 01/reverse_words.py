@@ -13,9 +13,6 @@ def reverse_words(string):
 	return ' '.join(words)
 
 
-def reverse_words(string):
-	words = string.split()[::-1]
-	return ''.join(words)
 
 s = reverse_words("Hello World")
 print(s)

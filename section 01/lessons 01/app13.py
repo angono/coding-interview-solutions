@@ -1,4 +1,4 @@
-# break statement
+# break & continue statement
 pets = ['dog', 'bird', 'cat', 'pyhon', 'rabbit']
 
 for pet in pets:

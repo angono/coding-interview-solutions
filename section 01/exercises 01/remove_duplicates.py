@@ -13,14 +13,6 @@ def remove_duplicates(nums):
 			num_set.add(n)
 	return num_set
 
-def remove_duplicates(nums):
-	num_set = set()
-	for n in nums:
-		if n in  num_set:
-			num_set.remove(n)
-		else:
-			num_set.add(n)
-	return num_set 
 
 
 list1 = [10, 45, 20, 4, 45, 99]
